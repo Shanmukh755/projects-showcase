@@ -1,13 +1,16 @@
 import styled from 'styled-components'
 
 export const ListItemContainer = styled.li`
-  width: 150px;
+  width: 21%;
   border-radius: 8px;
   display: flex;
   flex-direction: column;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 `
 export const CardImage = styled.img`
-  width: 150px;
+  width: 100%;
   border-top-right-radius: 8px;
   border-top-left-radius: 8px;
 `
